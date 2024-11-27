@@ -1,7 +1,8 @@
 swagger: '2.0'
 info:
   title: 'CT Project E-Commerce API'
-  description: 'An API to manage E-Commerce. This project was made by James Carlson as an assignment for Coding Temple.'
+  description:
+  
   version: '1.0.0'
 host: 'ct-project-12-ecommerce-ci-cd.onrender.com'
 schemes:
