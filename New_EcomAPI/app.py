@@ -4,7 +4,8 @@ import mysql.connector
 from mysql.connector import Error 
 from Marshmallow import Schema, fields, ValidationError 
 from password import my_password
-#------------------------------------------------------------------------------------
+#----------------------------------------------------------
+--------------------------
 app = Flask(__name__)
 ma = Marshmallow(app)
 
