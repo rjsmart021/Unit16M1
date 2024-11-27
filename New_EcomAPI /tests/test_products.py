@@ -11,7 +11,6 @@ from faker import Faker
 
 fake = Faker()
 
-
 # create mock product with randomized data
 def create_test_product():
     mock_product = MagicMock()
