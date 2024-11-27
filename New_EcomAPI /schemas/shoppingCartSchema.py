@@ -10,6 +10,7 @@ class ShoppingCartSchema(ma.Schema):
 class UpdateProductQuantitySchema(ma.Schema):
     quantity = fields.Integer(required=True, validate=validate.Range(min=0))
 
+
 # Create instances of the schema
 shopping_cart_schema = ShoppingCartSchema()
 shopping_carts_schema = ShoppingCartSchema(many=True)
