@@ -8,6 +8,7 @@ class ProductSchema(ma.Schema):
     price = fields.Float(required=True, validate=validate.Range(min=0))
     stock_quantity = fields.Integer(required=True, validate=validate.Range(min=0))
 
+
 class ProductIdSchema(ma.Schema):
     id = fields.Integer(required=True)
 
