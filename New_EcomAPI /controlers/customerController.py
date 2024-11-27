@@ -6,6 +6,7 @@ from marshmallow import ValidationError
 from caching import cache
 from auth import login_required
 
+
 # create new customer
 def create_customer():
     try:
